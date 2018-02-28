@@ -1,0 +1,29 @@
+.question {
+    font-weight: bold;
+    font-family: 'Bungee Shade';font-size: 22px;
+}
+
+.carter {
+    font-weight: bold;
+    font-family: 'Bungee Shade';font-size: 40px;
+    color: green;
+}
+
+/* #time {
+    font-family: 'Bungee Shade';font-size: 22px;
+} */
+
+body {
+    background-image: url("../images/dinos.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+/* .jumbotron {
+
+    background-color: lightgreen;
+    /* background-image: url("../images/trex.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+
