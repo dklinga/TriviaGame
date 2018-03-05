@@ -37,12 +37,12 @@ function decrement() {
         //  ...run the stop function.
         stop();
         //  Alert the user that time is up.
-        alert("Times Up! You got " + numberRight + " correct");
+        alert("Times Up! You got " + numberRight + " correct!!!");
         window.location.reload();
     }
     if (numberAnswered === 4) {
         stop();
-        alert("Times Up! You got " + numberRight + " correct");
+        alert("Times Up! You got " + numberRight + " correct!!!");
         window.location.reload();
     }
 }
@@ -65,7 +65,7 @@ document.getElementById("inlineRadio3").addEventListener("click", clickWrong);
 document.getElementById("inlineRadio4").addEventListener("click", clickWrong);
 
 function clickRight() {
-    if (document.getElementById("answer1").innerHTML = "You are correct!"); {
+    if (document.getElementById("answer1").innerHTML = "You are correct!!!"); {
         numberRight++;
         numberAnswered++;
         console.log(numberRight);
@@ -75,7 +75,7 @@ function clickRight() {
 }
 
 function clickWrong() {
-    if (document.getElementById("answer1").innerHTML = "You are wrong!");
+    if (document.getElementById("answer1").innerHTML = "Wrong!!!");
     numberAnswered++;
     console.log(numberAnswered);
 }
@@ -87,7 +87,7 @@ document.getElementById("inlineRadio7").addEventListener("click", clickIncorrect
 document.getElementById("inlineRadio8").addEventListener("click", clickIncorrect);
 
 function clickCorrect() {
-    if (document.getElementById("answer2").innerHTML = "You are correct!"); {
+    if (document.getElementById("answer2").innerHTML = "You are correct!!!"); {
         numberRight++;
         numberAnswered++;
         console.log(numberRight);
@@ -97,7 +97,7 @@ function clickCorrect() {
 }
 
 function clickIncorrect() {
-    if (document.getElementById("answer2").innerHTML = "You are wrong!");
+    if (document.getElementById("answer2").innerHTML = "Wrong!!!");
     numberAnswered++;
     console.log(numberAnswered);
 }
@@ -110,7 +110,7 @@ document.getElementById("inlineRadio11").addEventListener("click", clickC);
 document.getElementById("inlineRadio12").addEventListener("click", clickI);
 
 function clickC() {
-    if (document.getElementById("answer3").innerHTML = "You are correct!"); {
+    if (document.getElementById("answer3").innerHTML = "You are correct!!!"); {
         numberRight++;
         numberAnswered++;
         console.log(numberRight);
@@ -120,7 +120,7 @@ function clickC() {
 }
 
 function clickI() {
-    if (document.getElementById("answer3").innerHTML = "You are wrong!");
+    if (document.getElementById("answer3").innerHTML = "Wrong!!!");
     numberAnswered++;
     console.log(numberAnswered);
 }
@@ -133,7 +133,7 @@ document.getElementById("inlineRadio15").addEventListener("click", clickR);
 document.getElementById("inlineRadio16").addEventListener("click", clickW);
 
 function clickR() {
-    if (document.getElementById("answer4").innerHTML = "You are correct!"); {
+    if (document.getElementById("answer4").innerHTML = "You are correct!!!"); {
         numberRight++;
         numberAnswered++;
         console.log(numberRight);
@@ -143,7 +143,7 @@ function clickR() {
 }
 
 function clickW() {
-    if (document.getElementById("answer4").innerHTML = "You are wrong!");
+    if (document.getElementById("answer4").innerHTML = "Wrong!!!");
     numberAnswered++;
     console.log(numberAnswered);
 }
